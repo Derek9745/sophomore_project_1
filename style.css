@@ -1,0 +1,151 @@
+
+.button {
+  border: none;
+  background-image: linear-gradient(to right, #Eab308 ,#f50a45);
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 5px;
+  color: white;
+ 
+}
+.divider{
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px; 
+}
+
+.input{
+    margin-bottom:10px;
+}
+
+.profilephoto {
+    display: block;
+    max-width: 300px;
+    margin: 20px auto;
+    box-shadow: 10px 10px;
+       
+    }
+#resume{
+    align-items: center;
+}
+
+#projectPicture{
+    max-width:500px;
+    padding:10px;
+
+}
+
+
+#messageArea{
+    min-height: 100px;
+
+}
+
+#contentWrapper {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+
+#columnLayout{
+    flex-direction: column;
+    -ms-flex-align: center;
+    background-color: beige;
+    display: flex;
+    flex: 4;
+    
+}
+
+#inputColumn{
+    flex-direction: column;
+    display:flex;
+    
+}
+
+
+#contactForm{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: beige;
+    height: 300px;
+    font-size: 10px;
+    max-width: 700px;
+    margin:0 auto;
+    font-family: monospace;
+  
+}
+
+
+#headerName{
+    font-family: monospace;
+    text-decoration: underline;
+}
+
+#skillsList{
+    list-style-type: none;
+    line-height: 1.6;
+    justify-content: center;
+   
+}
+
+#link{
+    text-decoration:none;
+    color: black;
+    
+}
+
+
+#mainLayout{
+    display:flex;
+    
+
+
+}
+
+
+#myHeader{
+    height: 100px;
+    background-color: orange;
+    color:white;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: large;
+    text-align: center;
+    height: 40px;
+    font-family:monospace;
+    border-radius: 3px;
+
+    
+    
+}
+
+
+#container{
+    margin-right:10px;
+    background-color: beige;
+    height:700px;
+    color:black;
+    font-family: Courier;
+    
+
+}
+
+#sidePanel{
+
+    background-color:#fcd303;
+    flex:1;
+    font-family:monospace;
+    text-decoration: underline;
+    text-align:center;
+    min-width: 250px;
+    margin:5px;
+    box-shadow:#Eab308;
+    border-radius: 3px;
+
+  
+    
+}
+
